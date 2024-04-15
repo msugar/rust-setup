@@ -2,7 +2,16 @@
 
 This Rust template is meant to help you get quickly started with a new project. It is [Codespaces enabled](https://docs.github.com/en/codespaces/overview) and it is pre-configured with useful extensions like the [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer&WT.mc_id=academic-0000-alfredodeza) and [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode).
 
-It's based on the [template created by Alfredo Deza](https://github.com/new?template_name=rust-template&template_owner=alfredodeza).
+It's based on the [template created by Alfredo Deza](https://github.com/new?template_name=rust-template&template_owner=alfredodeza). The main difference is my version doesn't use [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). Instead, it installs [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode), the Microsoft's AI coding assistant. But IntellliCode is much more limited in comparison. 
+
+If you find a good free alternative to Copilot that supports Rust development well and it's also Devcontainer-friendly, please let me know. Here are the options I've tried so far, but I had to install their VS Code Extensions manually:
+
+- [TabNine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) - AI code completion tool that supports Rust.
+
+- [Cody AI](https://marketplace.visualstudio.com/items?itemName=cody.cody) - AI pair programmer extension by Anthropic.
+
+- [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) - AI coding assistant for multiple languages including Rust.
+
 
 ## Getting Started
 
