@@ -39,8 +39,6 @@ This template is [Codespaces enabled](https://docs.github.com/en/codespaces/over
 
 ## Resources
 
-This template repository is part of a 4-week Rust course, [start on week 1 here](https://github.com/alfredodeza/rust-setup) if you want to learn more about Rust!
-
 **Coursera Course**
 
 - [Rust Fundamentals](https://www.coursera.org/learn/rust-fundamentals)
