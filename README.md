@@ -1,1 +1,1 @@
-
+This Devcontainer configuration uses Cody instead of GitHub Copilot.
