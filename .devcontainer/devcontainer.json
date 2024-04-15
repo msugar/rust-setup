@@ -1,21 +1,16 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/rust
 {
-	"name": "Rust+Cody Dev Container",
+	"name": "Rust Dev Container",
 
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/vscode/devcontainers/rust:0-1-bullseye",
   
 	"postCreateCommand": "rustup update && rustc --version",
   
-	"postStartCommand": "python3 -m venv /opt/cody-env && source /opt/cody-env/bin/activate && pip install cody && /opt/cody-env/bin/cody start",
-
-	"forwardPorts": [3131],
-	
 	"customizations": {
 	  "vscode": {
 		"extensions": [
-		  "sourcegraph.cody",
 		  "rust-lang.rust-analyzer",
 		  "vadimcn.vscode-lldb"
 		]
